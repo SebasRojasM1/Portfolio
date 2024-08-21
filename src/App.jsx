@@ -3,6 +3,7 @@ import './App.css'
 import AboutMe from './components/AboutMe';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
         <Projects />
       </main>
       
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }

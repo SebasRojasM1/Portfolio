@@ -1,6 +1,6 @@
-import '../assets/styles/Header.scss';
+import '../assets/styles/NavBar.scss';
 
-function Header() {
+function NavBar() {
   return (
     <header>
       <nav className="navbar">
@@ -27,4 +27,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default NavBar;

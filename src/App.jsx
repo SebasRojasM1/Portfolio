@@ -1,10 +1,18 @@
 import NavBar from './components/NavBar';
 import './App.css'
+import AboutMe from './components/AboutMe';
 
 function App() {
   return (
     <>
-      <NavBar />
+      <header>
+        <NavBar />
+      </header>
+      
+      <main>
+        <AboutMe />
+      </main>
+      
     </>
   );
 }

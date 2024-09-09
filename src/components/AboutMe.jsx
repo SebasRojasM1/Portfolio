@@ -3,6 +3,7 @@ import '../assets/styles/AboutMe.scss';
 import githubLogo from "../assets/img/icons/github-logo.svg"
 import linkedinLogo from "../assets/img/icons/linkedin-logo.svg"
 import emailLogo from "../assets/img/icons/email-icon.svg"
+import retrato from "../assets/img/retrato.png"
 
 function AboutMe() {
     return (
@@ -31,11 +32,11 @@ function AboutMe() {
                     </a>
                 </div>
 
-                <a id="aboutBoton" href=""> Ver skills </a>
+                <a id="aboutBoton" href="#skills"> Ver skills </a>
             </div>
 
             <div className="photoPrincipal">
-                <img src="img/retrato.png" alt="" />
+                <img src={retrato} alt="" />
             </div>
         </section>
     );

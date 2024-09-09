@@ -1,4 +1,19 @@
 import '../assets/styles/Projects.scss';
+import PortfolioSS from "../assets/img/SS-Projects/PortfolioSS.png"
+import KGrillFusionSS from "../assets/img/SS-Projects/KGrillFusionSS.png"
+import NotesSS from "../assets/img/SS-Projects/NotesSS.png"
+import ecomusECommerceSS from "../assets/img/SS-Projects/ecomusECommerce.png"
+
+import htmlIcon from "../assets/img/icons/html-icon.svg"
+import cssIcon from "../assets/img/icons/css-logo.svg"
+import sassIcon from "../assets/img/icons/sass-logo.svg"
+import javascriptIcon from "../assets/img/icons/javascript-logo.svg"
+import typescriptIcon from "../assets/img/icons/typescript-logo.png"
+import tailwindIcon from "../assets/img/icons/tailwind-logo.png"
+import reactIcon from "../assets/img/icons/react-logo.svg"
+import nestJsIcon from "../assets/img/icons/nestjs-logo.png"
+import nextJsIcon from "../assets/img/icons/nextjs-logo.png"
+import mongodbIcon from "../assets/img/icons/mongodb-logo.png"
 
 function Projects() {
     return (
@@ -6,22 +21,70 @@ function Projects() {
             <h2 id="titleProject">Proyectos</h2>
             
             <section className="projects" id="projects">
-                <div className="card">
+                <a className="card" href='#'>
                     <figure>
-                        <img src="img/SS-Projects/APIestudiantesRiwi.png" alt="API Estudiante Gosling" />
+                        <img src={PortfolioSS} alt="Portfolio page" />
                     </figure>
 
                     <div className="cardContent">
-                        <h2>API Estudiante Gosling</h2>
+                        <h2>Portafolio</h2>
 
-                        <a href="https://sebasrojasm1.github.io/APIEstudiantesGosling/" target="_blank" className="readMore">
-                            Ir al proyecto
-                            <svg xmlns="http://www.w3.org/2000/svg" className="icon" viewBox="0 0 20 20" fill="currentColor">
-                                <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-                            </svg>
-                        </a>
+                        <div className='container-icons'>
+                            <img src={reactIcon} alt="React Icon" />
+                            <img src={sassIcon} alt="SASS Icon" />
+                        </div>
                     </div>
-                </div>
+                </a>
+
+                <a className="card" href='#'>
+                    <figure>
+                        <img src={KGrillFusionSS} alt="KGrill Fusion page" />
+                    </figure>
+
+                    <div className="cardContent">
+                        <h2>KGrill Fusion</h2>
+
+                        <div className='container-icons'>
+                            <img src={htmlIcon} alt="HTML Icon" />
+                            <img src={cssIcon} alt="CSS Icon" />
+                            <img src={javascriptIcon} alt="JavaScript Icon" />
+                        </div>
+                    </div>
+                </a>
+
+                <a className="card" href='#'>
+                    <figure>
+                        <img src={NotesSS} alt="Notes APP page" />
+                    </figure>
+
+                    <div className="cardContent">
+                        <h2>Notes APP</h2>
+
+                        <div className='container-icons'>
+                            <img src={nextJsIcon} alt="NextJs Icon" />
+                            <img src={typescriptIcon} alt="TypeScript Icon" />
+                            <img src={tailwindIcon} alt="Tailwind Icon" />
+                            <img src={nestJsIcon} alt="NestJs Icon" />
+                            <img src={mongodbIcon} alt="MongoDB Icon" />
+                        </div>
+                    </div>
+                </a>
+
+                <a className="card" href='#'>
+                    <figure>
+                        <img src={ecomusECommerceSS} alt="ecoumus ECommerce page" />
+                    </figure>
+
+                    <div className="cardContent">
+                        <h2>Ecoumus ECommerce APP</h2>
+
+                        <div className='container-icons'>
+                            <img src={nextJsIcon} alt="" />
+                            <img src={typescriptIcon} alt="" />
+                            <img src={tailwindIcon} alt="" />
+                        </div>
+                    </div>
+                </a>
             </section>
         </section>
     );

@@ -11,7 +11,7 @@ function NavBar() {
         <div className="opcionesNavbar">
           <li><a href="#principal">Sobre mi</a></li>
           <li><a href="#skills">Skills</a></li>
-          <li><a href="#title-project">Proyectos</a></li>
+          <li><a href="#titleProject">Proyectos</a></li>
           <li><a href="#footer">Contacto</a></li>
 
           <label htmlFor="check" className="closeMenu">

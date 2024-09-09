@@ -12,7 +12,7 @@ function App() {
         <NavBar />
       </header>
       
-      <main>
+      <main className='main'>
         <AboutMe />
         <Skills />
         <Projects />

@@ -12,10 +12,13 @@ function AboutMe() {
                 <p>Bienvenido/a</p>
                 <h1>Soy Sebastián Rojas.</h1>
                 <p>
-                    Como desarrollador web front-end, me especializo en crear código limpio
-                    y diseños perfectos. Con experiencia en la creación webs atractivas,
-                    brindo interactividad a cada proyecto. Mi enfoque en el diseño
-                    responsivo garantiza accesibilidad en todos los dispositivos.
+                    Desarrollador FullStack junior. Apasionado por las nuevas tecnologias y desarrollar soluciones
+                    con un impacto creativo. Enfocado en la solucion de las necesidades del usuario con un
+                    optimo desarrollo tecnico y visual.
+
+                    <br /> <br />
+                    En mi <strong>portafolio</strong> encontrarás algunos de mis proyectos en los que he
+                    trabajado y que tecnologias uso. <strong>¡No dudes en contactarme!</strong>
                 </p>
 
                 <div>

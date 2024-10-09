@@ -39,7 +39,7 @@ function Projects() {
                     </div>
                 </a>
 
-                <a className="card" href='#' target='_blank'>
+                <a className="card" href='https://sebasrojasm1.github.io/KGrill-Fusion/index.html' target='_blank'>
                     <figure>
                         <img src={KGrillFusionSS} alt="KGrill Fusion page" />
                     </figure>

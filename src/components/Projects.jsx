@@ -2,8 +2,9 @@ import '../assets/styles/Projects.scss';
 import PortfolioSS from "../assets/img/SS-Projects/PortfolioSS.png"
 import KGrillFusionSS from "../assets/img/SS-Projects/KGrillFusionSS.png"
 import NotesSS from "../assets/img/SS-Projects/NotesSS.png"
-import ecomusECommerceSS from "../assets/img/SS-Projects/ecomusECommerce.png"
+import pokemonPageSS from "../assets/img/SS-Projects/pokemon-page.png"
 import leBelleAventureSS from "../assets/img/SS-Projects/LeBelleAventure.png"
+import userManagementSS from "../assets/img/SS-Projects/user-management.png"
 
 import htmlIcon from "../assets/img/icons/html-icon.svg"
 import cssIcon from "../assets/img/icons/css-logo.svg"
@@ -38,7 +39,7 @@ function Projects() {
                     </div>
                 </a>
 
-                <a className="card" href='#'>
+                <a className="card" href='#' target='_blank'>
                     <figure>
                         <img src={KGrillFusionSS} alt="KGrill Fusion page" />
                     </figure>
@@ -54,13 +55,13 @@ function Projects() {
                     </div>
                 </a>
 
-                <a className="card" href='#'>
+                <a className="card" href='https://my-notes-three-iota.vercel.app/' target='_blank'>
                     <figure>
-                        <img src={NotesSS} alt="Notes APP page" />
+                        <img src={NotesSS} alt="MyNotes APP"/>
                     </figure>
 
                     <div className="cardContent">
-                        <h2>Notes APP</h2>
+                        <h2>MyNotes APP</h2>
 
                         <div className='container-icons'>
                             <img src={nextJsIcon} alt="NextJs Icon" />
@@ -72,23 +73,43 @@ function Projects() {
                     </div>
                 </a>
 
-                <a className="card" href='#'>
+                <a className="card" href='https://pokemon-page-two.vercel.app/' target='_blank' >
                     <figure>
-                        <img src={ecomusECommerceSS} alt="ecoumus ECommerce page" />
+                        <img src={pokemonPageSS} alt="Pokemon page" />
                     </figure>
 
                     <div className="cardContent">
-                        <h2>Ecoumus ECommerce APP </h2>
+                        <h2>Pokemon APP </h2>
 
                         <div className='container-icons'>
-                            <img src={nextJsIcon} alt="NextJs Icon" />
+                            <img src={reactIcon} alt="ReactJs Icon" />
+                            <img src={sassIcon} alt="NextJs Icon" />
                             <img src={typescriptIcon} alt="TypeScript Icon" />
                             <img src={tailwindIcon} alt="Tailwind Icon" />
                         </div>
                     </div>
                 </a>
+                
+                <a className="card" href='https://user-management-cyan-seven.vercel.app' target='_blank'>
+                    <figure>
+                        <img src={userManagementSS} alt="User Management" />
+                    </figure>
 
-                <a className="card" href='#'>
+                    <div className="cardContent">
+                        <h2>User Management APP</h2>
+
+                        <div className='container-icons'>
+                            <img src={angularIcon} alt="Angular14 Icon" />
+                            <img src={typescriptIcon} alt="TypeScript Icon" />
+                            <img src={sassIcon} alt="SASS Icon" />
+                            <img src={nestJsIcon} alt="NestJs Icon" />
+                            <img src={mongodbIcon} alt="MongoDB Icon" />
+                            <img src={tailwindIcon} alt="Tailwind Icon" />
+                        </div>
+                    </div>
+                </a>
+
+                <a className="card" href='https://gallery-three-swart.vercel.app/' target='_blank'>
                     <figure>
                         <img src={leBelleAventureSS} alt="Le Belle Aventure page " />
                     </figure>
@@ -104,6 +125,8 @@ function Projects() {
                         </div>
                     </div>
                 </a>
+
+                
             </section>
         </section>
     );
